@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Harry Xu的博客
-subtitle:
-description:
-author: Harry Xu
-language:
+title: 渐进
+subtitle: 见多方能识广，进而才可以融会贯通；取他人之所长，谦而才可以为我所用。
+description: 前端小白，安全爱好者，鸡汤博主
+author: X_Sword
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://xxyb.online
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
+#year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -63,7 +64,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -72,21 +74,47 @@ deploy:
   repository: https://github.com/xuyanbo03/xuyanbo03.github.io.git
   branch: master
 
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: true
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
+
+  
+duoshuo_shortname: xuyanbo03
+duoshuo_share: true
+
+search: b2756236edba983e404290b5b4717f8d
+  #path: search.xml
+  #field: post
+  #format: html
+  #limit: 10000
+
+#algolia:
+#appId: 'OBNY7K0AIA'
+#3apiKey: '3525bc24fec5733d9bae4ad70f1687fc'
+#adminApiKey: 'd98e44e3a440ced1300b466cb9e045e1'
+#indexName: 'xuyanbo03'
+#chunkSize: 5000
+#fields:
+#- title
+#- slug
+#- path
+#- content:strip
+
+leancloud_visitors:
+  enable: true
+  app_id: QJPFDCSOCoSkkmOd9nn6sW7J-gzGzoHsz
+  app_key: lf47PD0nKXMeiiHaxRbtdY8r
+
+plugins: hexo-generator-feed
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  
+links_title: 友情链接
+links:
+    百度: http://www.baidu.com/
+    腾讯: http://www.qq.com/
+	
+# sitemap
+sitemap:
+path: sitemap.xml
+baidusitemap:

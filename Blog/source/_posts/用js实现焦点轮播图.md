@@ -1,5 +1,8 @@
 ---
 title: 使用JavaScript实现焦点轮播图
+date: 2016-12-09
+tags: [html, css, javascript]
+categories: web前端
 ---
 
 # 使用JavaScript实现焦点轮播图 #
@@ -22,7 +25,7 @@ title: 使用JavaScript实现焦点轮播图
 
 附源码
 HTML代码
-   
+
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
@@ -81,52 +84,52 @@ css代码
 	#list img{
 		float: left;
 	}
-	#buttons{	
+	#buttons{
 		height: 10px;
-		width: 100px; 
-		z-index: 2; 
-		bottom: 20px; 
+		width: 100px;
+		z-index: 2;
+		bottom: 20px;
 		left: 250px;
 		position: absolute;
 	}
-	#buttons span { 
+	#buttons span {
 		cursor: pointer; /*规定要显示的光标的类型（手指)*/
-		float: left; 
-		border: 1px solid #fff; 
-		width: 10px; 
-		height: 10px; 
-		border-radius: 50%; 
-		background: #333; 
+		float: left;
+		border: 1px solid #fff;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: #333;
 		margin-right: 5px;
 	}
 	#buttons .on {  
 		background: orangered;
 	}
-	
-	.arrow { 
-		cursor: pointer; 
+
+	.arrow {
+		cursor: pointer;
 		display: none; /*箭头隐藏*/
-		line-height: 39px; 
-		text-align: center; 
-		font-size: 36px; 
-		font-weight: bold; 
+		line-height: 39px;
+		text-align: center;
+		font-size: 36px;
+		font-weight: bold;
 		width: 40px; height: 40px;  
-		position: absolute; 
-		z-index: 2; 
-		top: 180px; 
+		position: absolute;
+		z-index: 2;
+		top: 180px;
 		background-color: RGBA(0,0,0,.3); /*透明度设置*/
 		color: #fff;
 	}
-	.arrow:hover { 
+	.arrow:hover {
 		background-color: RGBA(0,0,0,.7);
 	}
-	#container:hover .arrow { 
+	#container:hover .arrow {
 		display: block; /*箭头显示*/
 	}
-	#prev { 
+	#prev {
 		left: 20px;
 	}
-	#next { 
+	#next {
 		right: 20px;
 	}
 
@@ -200,7 +203,7 @@ if (this.className == 'on') {
 	    var animated = false; //优化
 	    var interval = 3000; //时间间隔
 	    var timer;
-	
+
 	    function showButton() {
 	        for (var i = 0; i < buttons.length; i++) {
 	            if (buttons[i].className == 'on') {
@@ -210,7 +213,7 @@ if (this.className == 'on') {
 	        }
 	        buttons[index - 1].className = 'on';
 	    } //按钮切换
-	
+
 	    next.onclick = function() {
 	        if (animated) {
 	            return;
@@ -235,18 +238,18 @@ if (this.className == 'on') {
 	        animate(600);
 	        showButton();
 	    }//左切换
-	
+
 	    function play() {
 	        timer = setTimeout(function() {
 	            next.onclick();
 	            play();
 	        }, interval);
 	    }
-	
+
 	    function stop() {
 	        clearTimeout(timer);
 	    }
-	
+
 	    for (var i = 0; i < buttons.length; i++) {
 	        buttons[i].onclick = function() {
 	            if (animated) {
@@ -262,7 +265,7 @@ if (this.className == 'on') {
 	            showButton();
 	        }
 	    }
-	
+
 	    function animate(offset) {
 	        if (offset == 0) {
 	            return;
@@ -272,7 +275,7 @@ if (this.className == 'on') {
 	        var inteval = 10; //时间间隔
 	        var speed = offset / (time / inteval); //速度
 	        var left = parseInt(list.style.left) + offset; //改变值来实现滚动
-	
+
 	        var go = function() {
 	                if ((speed > 0 && parseInt(list.style.left) < left) || (speed < 0 && parseInt(list.style.left) > left)) {
 	                    list.style.left = parseInt(list.style.left) + speed + 'px';
@@ -290,10 +293,10 @@ if (this.className == 'on') {
 	            } //自动滚动
 	        go();
 	    }
-	
+
 	    container.onmouseover = stop();
 	    container.onmouseout = play();
-	
+
 	    play();
 	}
 
