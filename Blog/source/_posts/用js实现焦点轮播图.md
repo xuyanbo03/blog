@@ -1,6 +1,6 @@
 ---
 title: 使用JavaScript实现焦点轮播图
-date: 2016-12-09
+date: 2016-12-29
 tags: [html, css, javascript]
 categories: web前端
 ---
