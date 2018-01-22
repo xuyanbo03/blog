@@ -8,5 +8,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://xxyb.online/sitemap.xml
-Sitemap: http://xxyb.online/baidusitemap.xml
+Sitemap: http://www.awebone.com/sitemap.xml
+Sitemap: http://www.awebone.com/baidusitemap.xml

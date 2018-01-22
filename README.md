@@ -1,7 +1,5 @@
-# hexo搭建的博客
+# Awebone博客
 
-X-Sword博客
+hexo博客备份及一些前端文章和算法文章
 
-博客备份
-
-http://www.xxyb.online
+http://www.awebone.com

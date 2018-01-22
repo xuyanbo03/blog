@@ -10,11 +10,13 @@ categories: 工具
 ### 第一：Eclipse
 
 Eclipse 是一个开放源代码的、基于Java的可扩展开发平台。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。幸运的是，Eclipse 附带了一个标准的插件集，包括Java开发工具。虽然大多数用户很乐于将Eclipse 当作Java 集成开发环境（IDE）来使用，但Eclipse 的目标却不仅限于此。
+
+<!--more-->
+
 Eclipse 还包括插件开发环境（Plug-in Development Environment，PDE），这个组件主要针对希望扩展Eclipse 的软件开发人员，因为它允许他们构建与Eclipse 环境无缝集成的工具。由于Eclipse 中的每样东西都是插件，对于给Eclipse 提供插件，以及给用户提供一致和统一的集成开发环境而言，所有工具开发人员都具有同等的发挥场所。
 
 *P.S：程序员用Eclipse的话，有代码自动缩进、补全功能，有方法跳转，相同变量提醒。另外其实phpstorm、sublime 都还不错。看个人喜好。*
 
-<!--more-->
 
 ### 第二：PHPstorm
 

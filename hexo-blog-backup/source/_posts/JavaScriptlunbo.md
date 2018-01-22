@@ -5,7 +5,7 @@ tags: [html, css, javascript]
 categories: web前端
 ---
 
-# 使用JavaScript实现焦点轮播图 #
+# 使用JavaScript实现焦点轮播图
 
 ----------
 

@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 渐进
+title: Awebone's Blog
 subtitle: 见多方能识广，进而才可以融会贯通；取他人之所长，谦而才可以为我所用。
-description: 前端小白，安全爱好者，鸡汤博主
-author: X_Sword
+description: 前端开发，算法爱好者
+author: Awebone
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xxyb.online
+url: http://xuyanbo03.github.io
 root: /
 permalink: :title.html
 #year/:month/:day/:title/
@@ -76,7 +76,7 @@ theme: next
 deploy:
   type: git
   repository: https://github.com/xuyanbo03/xuyanbo03.github.io.git
-  branch: master
+  branch: blog
 
 
   
@@ -116,8 +116,9 @@ feed:
   
 links_title: 友情链接
 links:
-    百度: http://www.baidu.com/
-    腾讯: http://www.qq.com/
+    Segmentfault: https://segmentfault.com/
+    Github: https://github.com/
+    码云: https://gitee.com
 	
 # sitemap
 sitemap:
