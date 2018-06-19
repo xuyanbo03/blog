@@ -2,3 +2,43 @@ http://sfau.lt/cjTJko
 https://mp.weixin.qq.com/s/gLbfwS89cpAkkoVMzJc6sQ
 https://www.cnblogs.com/imyalost/p/7923230.html
 https://segmentfault.com/a/1190000012332210
+
+
+https://pintia.cn/problem-sets | PTA | 程序设计类实验辅助教学平台
+https://blog.csdn.net/wuhuagu_wuhuaguo/article/details/72287248?locationNum=1&fps=1 | 如何刷pat（想要在pat甲级拿80到90分） - CSDN博客
+file:///C:/Users/Awebone/Downloads/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89+(%E7%AE%97%E6%B3%95%E8%89%BA%E6%9C%AF%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%AB%9E%E8%B5%9B).pdf | 算法竞赛入门经典（第2版） ⡻靬햂穧⽎๏潛智�嬀)
+file:///C:/Users/Awebone/Downloads/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8%E8%AE%AD%E7%BB%83%E6%8C%87%E5%8D%97.pdf | GuidetoAOA
+https://www.linuxprobe.com/chapter-02.html | 第2章 新手必须掌握的Linux命令。 | 《Linux就该这么学》
+
+http://www.51nod.com/contest/problemList.html#!contestId=37 | 2018 拉勾专业算法能力测评 题目列表 - 51Nod
+https://www.nowcoder.com/activity/2018codem/oj | 2018美团CodeM编程大赛
+https://www.nowcoder.com/profile/3139319 | Awebone的个人主页_牛客网
+https://github.com/Soarkey/NumbericalAnalysis | Soarkey/NumbericalAnalysis: 数值分析（计算方法）
+https://blog.csdn.net/qq_28051453/article/details/51843130 | 五子棋算法判断输赢 - CSDN博客
+http://weilog.lanqiao.org/2018/03/08/altraining_ep1_sources/ | 蓝桥杯算法特训第一课【实用性原则】源代码 – 蓝桥在线
+https://www.icourse163.org/learn/ZJU-93001?tid=1002654021#/learn/announce | 数据结构_中国大学MOOC(慕课)
+https://www.liuchuo.net/ | 柳婼 の blog – 我不管，反正我最萌～
+http://lx.lanqiao.cn/problemsets.page | “蓝桥杯”练习系统
+https://projecteuler.net/ | About - Project Euler
+https://leetcode.com/ | LeetCode - The World's Leading Online Programming Learning Platform
+
+https://developers.google.cn/machine-learning/practica/ | Machine Learning Practica  |  Google Developers
+https://t.75team.com/video | 课程视频 - 奇舞学院
+https://lavas.baidu.com/ | Lavas | 基于 Vue 的 PWA 完整解决方案
+https://www.jisuanke.com/plan?object=%E5%8F%82%E5%8A%A0%E7%AE%97%E6%B3%95%E4%B8%8E%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B&subobject=%E8%93%9D%E6%A1%A5%E6%9D%AF | 学习计划 - 课程 - 计蒜客
+https://segmentfault.com/n/1330000014768096?token=7fa2579437f665e1787acfb98bea8f0a | 面试经验 - SegmentFault 思否
+https://juejin.im/post/59278e312f301e006c2e1510 | JavaScript深入系列15篇正式完结！ - 掘金
+https://zm12.sm-tc.cn/?src=l4uLj8XQ0IiIiNGSnpKWnJCbmtGckJLQlpGZkNKbmouelpPSzsvGzMvJy9GXi5KT&uid=ee1ee6280ec022c03c5ddc62e8c09e4e&hid=48e5874795b025b3c1334ccf20610176&pos=7&cid=9&time=1525743667963&from=click&restype=1&pagetype=0000004000000402&bu=news_natural&query=js%E8%B7%AF%E7%BA%BF&mode=&v=1&uc_param_str=dnntnwvepffrgibijbprsvdsdichei | 前端自学路线之js篇
+https://www.cnblogs.com/pssp/p/5216085.html | 彻底理解js中this的指向，不必硬背。 - 追梦子 - 博客园
+https://www.cnblogs.com/wangfupeng1988/p/3977924.html | 深入理解javascript原型和闭包（完结） - 王福朋 - 博客园
+https://blog.csdn.net/mayuko2012/article/details/76037742 | JS实现li标签的删除 - CSDN博客
+
+http://www.runoob.com/java/java-scanner-class..html | Java Scanner 类 | 菜鸟教程
+http://www.kaofx.com/index.php?a=neirongJY&g=M&id=672&m=index | 复旦大学960计算机专业知识考研复习经验心得2017
+http://csopenday.nju.edu.cn/notifications/1 | 计算机系本科生开放日
+http://study.nju.edu.cn/portal/frontCourseIndex/course.mooc?k=&n=course&f=0&t=all&m=&e=all&l=all&c=07&c=08&p=3&s= | 南京大学-SPOC官方网站
+http://www.cskaoyan.com/forum-96-1.html | 南京大学 - 王道论坛,专注于计算机考研的点点滴滴！
+http://njusoftware.com/forum.php | 南软爱码士-论坛 - 南京大学软件学院研究生论坛
+https://www.imooc.com/course/programdetail/pid/18 | 模式宗师养成宝典之Java版_学习路径_慕课网
+http://www.runoob.com/java/java-basic-datatypes.html | Java 基本数据类型 | 菜鸟教程
+https://www.imooc.com/article/15778 | java答答租车系统(控制台)_慕课手记
