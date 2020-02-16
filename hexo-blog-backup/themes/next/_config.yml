@@ -11,7 +11,7 @@ keywords: "Awebone"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
+rss: false
 
 # Specify the date when the site was setup
 since: 2016
@@ -20,7 +20,7 @@ since: 2016
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: false
+copyright: "Copyright © 2016-2020"
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -206,8 +206,11 @@ links_title: Links
 #links_layout: block
 #links_layout: inline
 links:
-  hexo: https://hexo.io/zh-cn/
-  next: http://theme-next.iissnan.com/
+  #hexo: https://hexo.io/zh-cn/
+  #next: http://theme-next.iissnan.com/
+  GitHub: https://github.com/xuyanbo03
+  Segmentfault: https://segmentfault.com/u/awebone
+  码云: https://gitee.com/awebone
   #Title: http://example.com/
 
 
@@ -261,7 +264,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -270,8 +273,8 @@ highlight_theme: night
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -282,7 +285,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: xuyanbo03
+#duoshuo_shortname:
 
 # Disqus
 #disqus_shortname:
@@ -310,7 +313,7 @@ duoshuo_shortname: xuyanbo03
 #add_this_id:
 
 # Share
-duoshuo_share: true
+#duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -330,11 +333,11 @@ duoshuo_share: true
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 65401c30f53833d392826d748ab5d4a0
-  admin_nickname: X_Sword
+#duoshuo_info:
+#  ua_enable: false
+#  admin_enable: false
+#  user_id: 65401c30f53833d392826d748ab5d4a0
+#  admin_nickname: X_Sword
 
 
 # Facebook SDK Support.
@@ -408,7 +411,7 @@ donate:
   alipay: images/zfb.jpg
   wechat: images/wechat.png
   
-reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+reward_comment: 坚持技术分享，您的支持将鼓励我继续创作！
 #alipay: images/zfb.jpg
 #wechat: images/wechat.png
 

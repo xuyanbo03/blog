@@ -5,7 +5,7 @@
 # Site
 title: Awebone's Blog
 subtitle: 见多方能识广，进而才可以融会贯通；取他人之所长，谦而才可以为我所用。
-description: 前端开发，算法爱好者
+description: 大数据开发，算法研究者
 author: Awebone
 language: zh-CN
 timezone:
@@ -80,8 +80,8 @@ deploy:
 
 
   
-duoshuo_shortname: xuyanbo03
-duoshuo_share: true
+#duoshuo_shortname: 
+#duoshuo_share: false
 
 #search: b2756236edba983e404290b5b4717f8d
 search: 
@@ -103,7 +103,7 @@ search:
 #- content:strip
 
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: QJPFDCSOCoSkkmOd9nn6sW7J-gzGzoHsz
   app_key: lf47PD0nKXMeiiHaxRbtdY8r
 
