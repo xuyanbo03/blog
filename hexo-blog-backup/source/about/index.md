@@ -1,36 +1,31 @@
 ---
 title: 关于我
-date: 2017-11-15 19:08:50
+date: 2020-02-22 19:08:50
 ---
 # 关于我
 
-**前端开发者，算法爱好者**
+**Python后端开发，大数据开发，算法研究**
 
-> 乐于分享技术文章、内心感悟、读书心得，整理相关资料。作为大学生，技术有限，如有不妥，多多批评指点。
+> 乐于分享技术文章、内心感悟、读书心得，整理相关资料。作为学生，技术有限，如有不妥，多多批评指点。
 --- Awebone
 
 ## 个人介绍
 
-姓名: 寺随
+姓名：寺随
 
-性别: 男
+地址：找实习中。。。
 
-地址: 江西省南昌市
-
-QQ: 610958401
-
-Email: xuyanbo03@gmail.com
+Email：xuyanbo0301@163.com
 
 微信公众号：Awebone浅谈
 
-[segmentfault主页](https://segmentfault.com/u/awebone)
+[我的segmentfault主页](https://segmentfault.com/u/awebone)
 
-[Github主页](https://github.com/xuyanbo03)
+[我的Github主页](https://github.com/xuyanbo03)
 
-[Github团队](https://github.com/AweboneTeam)
+[我的Github团队](https://github.com/AweboneTeam)
 
-[推特主页](https://twitter.com/AweboneXu)
-
+[我的推特主页](https://twitter.com/AweboneXu)
 
 ## 常用网址
 
@@ -136,7 +131,7 @@ Email: xuyanbo03@gmail.com
 
 [计蒜客](https://www.jisuanke.com/)
 
-其他：
+**其他：**
 
 [Web编码解码](http://www.mxcz.net/tools/base64.aspx)
 
