@@ -4,7 +4,7 @@ date: 2020-02-22 19:08:50
 ---
 # 关于我
 
-**Python后端开发，大数据开发，算法研究**
+**Python开发，大数据开发，算法研究**
 
 > 乐于分享技术文章、内心感悟、读书心得，整理相关资料。作为学生，技术有限，如有不妥，多多批评指点。
 --- Awebone
@@ -118,6 +118,8 @@ Email：xuyanbo0301@163.com
 [Processon在线作图](https://www.processon.com/)
 
 [Dnspod域名管理](https://www.dnspod.cn/)
+
+[leancloud](https://www.leancloud.cn/)
 
 **练习：**
 

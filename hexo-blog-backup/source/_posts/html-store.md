@@ -1,8 +1,9 @@
 ---
-title: HTML5存储初探
-date: 2017-04-26
-tags: [HTML]
-categories: web前端
+title:  HTML5存储初探
+date:  2017-04-26
+tags:  [HTML]
+categories:  web前端
+top: 10
 ---
 
 # HTML5存储初探
@@ -102,7 +103,7 @@ localStorage.key(i)
 
   按域名分配独立空间，一个域名下可创建多个数据库，一个DB可以创建多个对象储存空间（表），一个对象存储空间可以创建多个对象数据。
 
-  ![IndexedSQL](images/html-store/IndexedSQL.jpg)
+  ![IndexedSQL](/images/html-store/IndexedSQL.jpg)
 
 - 功能
   - 增删改
@@ -122,13 +123,13 @@ localStorage.key(i)
 
 - 原理（如图）：读取离线缓存，同时检查manifest文件，有更新时更新文件和缓存
 
-  ![H51](images/html-store/H51.jpg)
+  ![H51](/images/html-store/H51.jpg)
 
 - appcache使用和更新
   - 使用：创建manifest文件
   - 修改资源文件，必须通过修改manifest文件来更新被缓存的文件列表
 
-  ![H52](images/html-store/H52.jpg)
+  ![H52](/images/html-store/H52.jpg)
 
 - 优点
   - 完全离线

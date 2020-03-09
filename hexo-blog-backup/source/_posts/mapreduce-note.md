@@ -1,8 +1,10 @@
 ---
-title: MapReduce初探
-date: 2017-09-14
-tags: [MapReduce]
-categories: 大数据
+title : MapReduce初探
+date : 2017-09-14
+tags : [MapReduce]
+categories : 大数据
+top : 20
+copyright : ture
 ---
 
 # MapReduce初探
@@ -22,7 +24,7 @@ MapReduce存储：HDFS
 - 可扩展性
 - 并发处理
 
-![Alt text](images/mr-learn/HDFS.png)
+![Alt text](/images/mr-learn/HDFS.png)
 
 MapReduce思想：分治
 - 分解
@@ -41,33 +43,33 @@ MapReduce思想：分治
 
 ## MapReduce执行流程
 
-![Alt text](images/mr-learn/MR1.png)
+![Alt text](/images/mr-learn/MR1.png)
 
-![Alt text](images/mr-learn/MR2.png)
+![Alt text](/images/mr-learn/MR2.png)
 
-![Alt text](images/mr-learn/MR3.png)
+![Alt text](/images/mr-learn/MR3.png)
 
-![Alt text](images/mr-learn/MR4.png)
+![Alt text](/images/mr-learn/MR4.png)
 
-![Alt text](images/mr-learn/MR5.png)
+![Alt text](/images/mr-learn/MR5.png)
 
-![Alt text](images/mr-learn/MR6.png)
+![Alt text](/images/mr-learn/MR6.png)
 
-![Alt text](images/mr-learn/MR7.png)
+![Alt text](/images/mr-learn/MR7.png)
 
-![Alt text](images/mr-learn/MR8.png)
+![Alt text](/images/mr-learn/MR8.png)
 
-![Alt text](images/mr-learn/MR9.png)
+![Alt text](/images/mr-learn/MR9.png)
 
-![Alt text](images/mr-learn/MR10.png)
+![Alt text](/images/mr-learn/MR10.png)
 
-![Alt text](images/mr-learn/MR11.png)
+![Alt text](/images/mr-learn/MR11.png)
 
-![Alt text](images/mr-learn/MR12.png)
+![Alt text](/images/mr-learn/MR12.png)
 
-![Alt text](images/mr-learn/MR13.png)
+![Alt text](/images/mr-learn/MR13.png)
 
-![Alt text](images/mr-learn/MR14.png)
+![Alt text](/images/mr-learn/MR14.png)
 
 
 
@@ -75,7 +77,7 @@ MapReduce思想：分治
 
 ### WordCount
 
-![Alt text](images/mr-learn/WordCount.png)
+![Alt text](/images/mr-learn/WordCount.png)
 
 
 
