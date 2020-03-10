@@ -1,8 +1,10 @@
 ---
 title: 使用JavaScript做一个AI五子棋
-date: 2017-04-27
-tags: [JavaScript]
+tags:
+  - JavaScript
 categories: web前端
+abbrlink: 31926
+date: 2017-04-27 00:00:00
 ---
 
 # 使用JavaScript做一个AI五子棋

@@ -1,8 +1,10 @@
 ---
 title: 提升效率
-date: 2017-03-19
-tags: [方法]
+tags:
+  - 方法
 categories: 方法
+abbrlink: 30329
+date: 2017-03-19 00:00:00
 ---
 
 # 提升效率

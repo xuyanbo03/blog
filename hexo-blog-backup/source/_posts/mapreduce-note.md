@@ -1,10 +1,14 @@
 ---
-title : MapReduce初探
-date : 2017-09-14
-tags : [MapReduce]
-categories : 大数据
-top : 20
-copyright : ture
+title: MapReduce初探
+tags:
+  - MapReduce
+categories:
+  - 大数据
+top: 20
+copyright: ture
+author: Awebone
+abbrlink: 50227
+date: 2017-09-14 00:00:00
 ---
 
 # MapReduce初探

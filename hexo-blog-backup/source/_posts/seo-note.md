@@ -1,8 +1,10 @@
 ---
 title: SEO学习笔记
-date: 2017-03-20
-tags: [seo]
+tags:
+  - seo
 categories: web
+abbrlink: 47402
+date: 2017-03-20 00:00:00
 ---
 
 # SEO学习笔记

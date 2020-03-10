@@ -1,8 +1,10 @@
 ---
 title: CSS3实现3D魔方
-date: 2017-04-22
-tags: [CSS]
+tags:
+  - CSS
 categories: web前端
+abbrlink: 27135
+date: 2017-04-22 00:00:00
 ---
 
 # CSS3实现3D魔方

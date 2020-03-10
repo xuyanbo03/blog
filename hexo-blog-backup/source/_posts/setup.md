@@ -1,8 +1,10 @@
 ---
 title: 格局
-date: 2017-02-25
-tags: [方法论]
+tags:
+  - 方法论
 categories: 方法论
+abbrlink: 35031
+date: 2017-02-25 00:00:00
 ---
 
 # 格局

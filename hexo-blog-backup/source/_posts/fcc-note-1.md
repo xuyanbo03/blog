@@ -1,8 +1,13 @@
 ---
 title: FreeCodeCamp学习笔记(一)
-date: 2017-04-24
-tags: [HTML,CSS,JavaScript,FreeCodeCamp]
+tags:
+  - HTML
+  - CSS
+  - JavaScript
+  - FreeCodeCamp
 categories: web前端
+abbrlink: 15978
+date: 2017-04-24 00:00:00
 ---
 
 # FreeCodeCamp学习笔记(一)

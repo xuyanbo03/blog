@@ -1,8 +1,10 @@
 ---
 title: HTML学习笔记
-date: 2017-03-21
-tags: [HTML]
+tags:
+  - HTML
 categories: web前端
+abbrlink: 34391
+date: 2017-03-21 00:00:00
 ---
 
 # HTML学习笔记

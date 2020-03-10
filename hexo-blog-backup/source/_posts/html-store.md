@@ -1,9 +1,11 @@
 ---
-title:  HTML5存储初探
-date:  2017-04-26
-tags:  [HTML]
-categories:  web前端
+title: HTML5存储初探
+tags:
+  - HTML
+categories: web前端
 top: 10
+abbrlink: 57791
+date: 2017-04-26 00:00:00
 ---
 
 # HTML5存储初探

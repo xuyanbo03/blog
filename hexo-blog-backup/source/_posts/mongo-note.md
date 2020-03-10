@@ -1,10 +1,13 @@
 ---
 title: MongoDB基础学习
-date: 2017-07-01
-tags: [MongoDB]
-categories: 数据库
+tags:
+  - MongoDB
+categories:
+  - 数据库
+author: Awebone
+abbrlink: 1993
+date: 2017-07-01 00:00:00
 ---
-
 # MongoDB基础学习
 
 >MongoDB是一个跨平台，面向文档的数据库，提供高性能，高可用性和易于扩展，总结知识点分享给与我一样刚入门MongoDB的人。
@@ -71,11 +74,11 @@ categories: 数据库
 
 - 连接到不同的数据库或服务器
   
-    ```
-    mongo --nodb
-	connect=new Mongo("host:27017")
-    db=connect.getDB("myDB")
-    ```
+```js
+mongo --nodb
+connect=new Mongo("host:27017")
+db=connect.getDB("myDB")
+```
     
 - 帮助
   - `help`
@@ -158,4 +161,3 @@ categories: 数据库
   - `limit`：限制返回数量
   - `skip`：忽略一定数量的结果
   - `sort`：接受一个对象作为参数，键为文档键名，值为排序方向（1为升序，-1为降序）
-

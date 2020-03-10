@@ -1,8 +1,10 @@
 ---
 title: 数据结构与算法JavaScript学习(一)
-date: 2017-05-10
-tags: [JavaScript]
+tags:
+  - JavaScript
 categories: web前端
+abbrlink: 15486
+date: 2017-05-10 00:00:00
 ---
 
 # 数据结构与算法JavaScript学习(一)

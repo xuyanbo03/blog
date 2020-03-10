@@ -1,8 +1,11 @@
 ---
 title: kali linux 安装指南
-date: 2017-04-20
-tags: [kali,Linux]
+tags:
+  - kali
+  - Linux
 categories: Linux
+abbrlink: 32296
+date: 2017-04-20 00:00:00
 ---
 
 # kali linux 安装指南

@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xuyanbo03.github.io
+url: http://www.awebone.com
 root: /
 permalink: :year/:month/:title/
 #permalink: :year/:month/:day/:title/
@@ -88,13 +88,51 @@ Plugins:
 ## Themes: https://hexo.io/themes/
 theme: next-new
 
+# all_minifier: true
+# html_minifier:
+#   enable: true
+#   ignore_error: false
+#   exclude:
+
+# css_minifier:
+#   enable: true
+#   exclude:
+#     - '*.min.css'
+
+# js_minifier:
+#   enable: true
+#   mangle: true
+#   output:
+#   compress:
+#   exclude:
+#     - '*.min.js'
+
+# js_concator:
+#   enable: false
+#   bundle_path: '/js/bundle.js'
+#   front: false
+#   silent: false
+
+# image_minifier:
+#   enable: true
+#   interlaced: false
+#   multipass: false
+#   optimizationLevel: 2
+#   pngquant: false
+#   progressive: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/xuyanbo03/xuyanbo03.github.io.git
-  branch: blog
+-  type: git
+   repository: https://github.com/xuyanbo03/xuyanbo03.github.io.git
+   branch: blog
+-  type: git
+   repository: git@www.awebone.com:/home/git/blog.git
+   branch: master
+
+admin:
+  deployCommand: 'hexo-publish.bat'
 
 
   
@@ -143,12 +181,58 @@ githubEmojis:
   localEmojis:
 
 
-links_title: 友情链接
+# offline config passed to sw-precache.
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+  stripPrefix: public
+  verbose: true
+
+
+# https://github.com/lavas-project/hexo-pwa
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      name: Awebone
+      short_name: Awebone
+      description: Awebone's Blog
+      icons:
+      - src: /images/icons/icon-72x72.png
+        sizes: 72x72
+        type: image/png
+      - src: /images/icons/icon-152x152.png
+        sizes: 152x152
+        type: image/png
+      start_url: /index.html
+      theme_color: '#2196f3'
+      background_color: '#2196f3'
+      display: standalone
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+      - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+    - pattern: !!js/regexp /hm.baidu.com/
+      strategy: networkOnly
+    - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+      strategy: cacheFirst
+    - pattern: !!js/regexp /\//
+      strategy: networkFirst
+  priority: 5
+
+
+links_title: 友链
 links:
     Segmentfault: https://segmentfault.com/ || spinner
     Github: https://github.com/ || github
     码云: https://gitee.com || heartbeat
-	
+
 # sitemap
 sitemap:
   path: sitemap.xml

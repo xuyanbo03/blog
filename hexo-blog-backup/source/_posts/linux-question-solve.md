@@ -1,8 +1,10 @@
 ---
 title: 关于Linux问题的解决办法
-date: 2017-03-05
-tags: [Linux]
+tags:
+  - Linux
 categories: Linux
+abbrlink: 13368
+date: 2017-03-05 00:00:00
 ---
 
 # 关于Linux问题的解决办法

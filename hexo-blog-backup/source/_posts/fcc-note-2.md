@@ -1,8 +1,11 @@
 ---
 title: FreeCodeCamp学习笔记（二）
-date: 2017-05-14
-tags: [计算机基础知识,FreeCodeCamp]
+tags:
+  - 计算机基础知识
+  - FreeCodeCamp
 categories: web
+abbrlink: 33304
+date: 2017-05-14 00:00:00
 ---
 
 # FreeCodeCamp学习笔记（二）

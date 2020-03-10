@@ -1,8 +1,10 @@
 ---
 title: Google Hack
-date: 2017-03-24
-tags: [搜索技巧]
+tags:
+  - 搜索技巧
 categories: web
+abbrlink: 21209
+date: 2017-03-24 00:00:00
 ---
 
 # Google Hack

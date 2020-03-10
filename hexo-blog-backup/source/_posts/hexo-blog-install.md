@@ -1,8 +1,10 @@
 ---
 title: 用GitHub和hexo搭建个人主站
-date: 2017-02-24
-tags: [blog]
+tags:
+  - blog
 categories: blog
+abbrlink: 58958
+date: 2017-02-24 00:00:00
 ---
 
 # 用GitHub和hexo搭建个人主站

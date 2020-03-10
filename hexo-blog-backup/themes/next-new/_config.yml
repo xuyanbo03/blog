@@ -27,8 +27,8 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon.ico
-  medium: /images/favicon.ico
+  small: /images/icons/icon-72x72.png
+  medium: /images/icons/icon-72x72.png
   #small: /images/favicon-16x16-next.png
   #medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
@@ -37,7 +37,9 @@ favicon:
   ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: Awebone,blog,博客,大数据
+keywords: "Awebone,blog,博客,大数据"
+
+description: Python开发，大数据开发，算法研究者
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
@@ -137,7 +139,7 @@ social:
   GitHub: https://github.com/xuyanbo03 || github
   Segmentfault: https://segmentfault.com/u/awebone || heartbeat
   码云: https://gitee.com/awebone || spinner
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  E-Mail: xuyanbo03@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -154,19 +156,19 @@ social_icons:
 
 # Blog rolls
 links_icon: globe
-links_title: Links
+links_title: 友链
 #links_layout: block
 links_layout: inline
 links:
-  GitHub: https://github.com/xuyanbo03
-  Segmentfault: https://segmentfault.com/u/awebone
-  码云: https://gitee.com/awebone
+  掘金: https://juejin.im/user/57f916bf128fe100545db838
+  开源中国: https://my.oschina.net/xxyb
+  gitmemory: https://www.gitmemory.com/xuyanbo03
   #Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/1537192515751749.jpg
+avatar: /images/icons/icon-144x144.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -203,10 +205,10 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: true
@@ -255,8 +257,8 @@ post_wordcount:
 
 # Reward
 #reward_comment: Donate comment here
-wechatpay: /images/wechat.png
-alipay: /images/zfb.jpg
+wechatpay: /images/wepay.svg
+#alipay: /images/zfb.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -308,7 +310,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host: https://fonts.google.com/
+  host: //fonts.lug.ustc.edu.cn
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -318,21 +320,21 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Lato
+    family: 'Comic Neue' #Noto Serif SC #Lato
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Roboto Slab
+    family: #'Comic Neue' #Roboto Slab
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: #'Comic Neue'
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -474,10 +476,15 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: true
+
+analytics:
+  google:
+    enable: true	#开启对Google的自动推送 
+    id: UA-160203086-1
 
 # Google Analytics
-#google_analytics:
+# google_analytics:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -535,7 +542,7 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: true
+  enable: false
   id:     #<app_id>
   color:  f79533
 # ---------------------------------------------------------------

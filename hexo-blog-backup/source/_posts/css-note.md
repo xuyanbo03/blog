@@ -1,8 +1,10 @@
 ---
 title: CSS学习笔记
-date: 2017-03-22
-tags: [CSS]
+tags:
+  - CSS
 categories: web前端
+abbrlink: 16130
+date: 2017-03-22 00:00:00
 ---
 
 # CSS学习笔记
