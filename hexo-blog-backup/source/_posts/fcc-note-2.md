@@ -3,8 +3,9 @@ title: FreeCodeCamp学习笔记（二）
 tags:
   - 计算机基础知识
   - FreeCodeCamp
-categories: web
-abbrlink: 33304
+categories: 
+  - web
+abbrlink: e20ef482
 date: 2017-05-14 00:00:00
 ---
 

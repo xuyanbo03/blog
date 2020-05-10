@@ -1,9 +1,10 @@
 ---
 title: 提升效率
 tags:
-  - 方法
-categories: 方法
-abbrlink: 30329
+  - 方法论
+categories: 
+  - 方法论
+abbrlink: 8786024c
 date: 2017-03-19 00:00:00
 ---
 

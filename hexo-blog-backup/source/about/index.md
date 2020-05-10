@@ -9,6 +9,8 @@ date: 2020-02-22 19:08:50
 > 乐于分享技术文章、内心感悟、读书心得，整理相关资料。作为学生，技术有限，如有不妥，多多批评指点。
 --- Awebone
 
+
+
 ## 个人介绍
 
 姓名：寺随
@@ -27,17 +29,19 @@ Email：xuyanbo0301@163.com
 
 [我的推特主页](https://twitter.com/AweboneXu)
 
+
+
 ## 常用网址
 
-### Coding
+### Coding代码管理
 
 [Github](https://github.com)
 
 [码云](https://gitee.com/)
 
-[Stackoverflow](https://stackoverflow.com/)
 
-### 平台及服务
+
+### 云平台及服务
 
 **云：**
 
@@ -45,19 +49,17 @@ Email：xuyanbo0301@163.com
 
 [腾讯云](https://cloud.tencent.com/)
 
+[华为云](https://www.huaweicloud.com/)
+
 [HostUS](https://hostus.us/)
 
-**富文本存储：**
+[Heroku](https://www.heroku.com/)
+
+**对象存储：**
 
 [野狗云](https://www.wilddog.com/)
 
-**静态资源存储：**
-
 [七牛云](https://www.qiniu.com/)
-
-**云平台：**
-
-[Heroku](https://www.heroku.com/)
 
 **持续集成构建工具：**
 
@@ -69,7 +71,9 @@ Email：xuyanbo0301@163.com
 
 [MLab](https://mlab.com/)
 
-### Web Develop
+
+
+### Web FrontEnd Develop
 
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide)
 
@@ -84,6 +88,32 @@ Email：xuyanbo0301@163.com
 [iconfont阿里图标库](http://www.iconfont.cn/plus)
 
 [Ionicons图标库](http://ionicons.com/)
+
+[Stackoverflow](https://stackoverflow.com/)
+
+JS代码检查：[ESLint](http://eslint.org/)
+
+客户端包管理：[bower](https://bower.io/)
+
+服务端包管理：[npm](https://www.npmjs.com/)
+
+打包工具：[webpack](http://webpack.github.io/)
+
+自动化工具：[gulp](http://gulpjs.com/)
+
+服务端代码转为浏览器加载文件：[browserify](http://browserify.org/)
+
+JS代码规范：[AMD规范](http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html)，[CommonJS规范](http://javascript.ruanyifeng.com/nodejs/module.html)
+
+web页面调试工具：[chrometools](http://developer.chrome.com/devtools)
+
+JS代码单元测试：[mocha](http://mochajs.org/)
+
+覆盖率测试：[istanbul](https://www.npmjs.com/package/istanbul)，[工具教程](http://www.ruanyifeng.com/blog/2015/06/istanbul.html)
+
+浏览器自动化模拟：[selenium](http://www.seleniumhq.org/docs/)
+
+
 
 ### OJ
 
@@ -101,15 +131,17 @@ Email：xuyanbo0301@163.com
 
 [Codeforces](http://codeforces.com/)
 
+
+
 ### Work
 
 [程序员客栈](https://www.proginn.com)
 
 [Freelancer](https://www.freelancer.com)
 
-### Tools
 
-**常用：**
+
+### 常用工具
 
 [JSBin 编辑器](http://jsbin.com/?html,output)
 
@@ -121,7 +153,9 @@ Email：xuyanbo0301@163.com
 
 [leancloud](https://www.leancloud.cn/)
 
-**练习：**
+
+
+**代码练习：**
 
 [CodePen](https://codepen.io/)
 
@@ -132,6 +166,8 @@ Email：xuyanbo0301@163.com
 [实验吧](http://www.shiyanbar.com/)
 
 [计蒜客](https://www.jisuanke.com/)
+
+
 
 **其他：**
 

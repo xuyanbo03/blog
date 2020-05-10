@@ -2,8 +2,9 @@
 title: 格局
 tags:
   - 方法论
-categories: 方法论
-abbrlink: 35031
+categories: 
+  - 方法论
+abbrlink: e913391a
 date: 2017-02-25 00:00:00
 ---
 

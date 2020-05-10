@@ -2,8 +2,9 @@
 title: 使用JavaScript实现焦点轮播图
 tags:
   - JavaScript
-categories: web前端
-abbrlink: 43699
+categories: 
+  - web前端
+abbrlink: 7a7093e6
 date: 2017-12-29 00:00:00
 ---
 

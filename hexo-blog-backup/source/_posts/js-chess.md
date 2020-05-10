@@ -2,14 +2,17 @@
 title: 使用JavaScript做一个AI五子棋
 tags:
   - JavaScript
-categories: web前端
-abbrlink: 31926
+categories: 
+  - web前端
+abbrlink: d24e8921
 date: 2017-04-27 00:00:00
 ---
 
 # 使用JavaScript做一个AI五子棋
 
 **实现步骤：**
+
+1. 搭建HTML、CSS、JS框架
 
 2. canvas画图
 3. js实现棋盘

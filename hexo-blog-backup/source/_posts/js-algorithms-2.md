@@ -2,8 +2,9 @@
 title: 数据结构与算法JavaScript学习(二)
 tags:
   - JavaScript
-categories: web前端
-abbrlink: 64730
+categories: 
+  - web前端
+abbrlink: db1de468
 date: 2017-07-05 00:00:00
 ---
 
@@ -12,8 +13,6 @@ date: 2017-07-05 00:00:00
 ## 搜索算法
 
 ### 顺序或线性搜索
-
-<!-- more -->
 
 ```js
 function ArrayList(){
@@ -38,6 +37,8 @@ function ArrayList(){
   };
 }
 ```
+
+<!-- more -->
 
 
 
@@ -91,7 +92,7 @@ function ArrayList(){
       }
     }
     return i;
-  }；
+  };
   //交换数组元素
   var swapQuickStort=function (array,index1,index2) {
     var aux=array[index1];
@@ -183,7 +184,8 @@ function dpMinCoinChange(coins) {
       if (newAmount>=0) {
         newMin=me.makeChange(newAmount);
       }
-      if (newAmount>=0 && (newMin.length<min.length-1 || !min.length) && (newMin.length || !newAmount)) {
+      if (newAmount>=0 && (newMin.length<min.length-1 || !min.length) 
+          && (newMin.length || !newAmount)) {
         //判断newAmount是否有效，最小硬币数是否最优，newMin和newAmount是否合理
         min=[coin].concat(newMin);
         console.log('new Min '+min+ ' for '+amount);

@@ -5,7 +5,7 @@ tags:
 categories:
   - 数据库
 author: Awebone
-abbrlink: 1993
+abbrlink: 8c3b0bac
 date: 2017-07-01 00:00:00
 ---
 # MongoDB基础学习
@@ -79,7 +79,7 @@ mongo --nodb
 connect=new Mongo("host:27017")
 db=connect.getDB("myDB")
 ```
-    
+
 - 帮助
   - `help`
   - `db.foo.update`，方法不加括号可查看相应函数的源码

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP:From-Https} !^on$ [NC]
+RewriteCond %{HTTP_HOST} ^(www.)?awebone.com$ [NC]
+RewriteRule ^(.*)$ https://www.awebone.com/$1 [R=301,L]

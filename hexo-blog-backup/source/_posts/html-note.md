@@ -2,8 +2,9 @@
 title: HTML学习笔记
 tags:
   - HTML
-categories: web前端
-abbrlink: 34391
+categories: 
+  - web前端
+abbrlink: 13b6b7c2
 date: 2017-03-21 00:00:00
 ---
 

@@ -2,8 +2,9 @@
 title: Google Hack
 tags:
   - 搜索技巧
-categories: web
-abbrlink: 21209
+categories: 
+  - web
+abbrlink: bb07c3a7
 date: 2017-03-24 00:00:00
 ---
 

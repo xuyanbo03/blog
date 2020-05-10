@@ -2,8 +2,9 @@
 title: 数据结构与算法JavaScript学习(一)
 tags:
   - JavaScript
-categories: web前端
-abbrlink: 15486
+categories: 
+  - web前端
+abbrlink: 742c7f0a
 date: 2017-05-10 00:00:00
 ---
 
@@ -452,7 +453,7 @@ function ArrayList(){
       }
     }
     return i;
-  }；
+  };
   //交换数组元素
   var swapQuickStort=function (array,index1,index2) {
     var aux=array[index1];

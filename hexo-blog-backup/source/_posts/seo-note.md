@@ -2,8 +2,9 @@
 title: SEO学习笔记
 tags:
   - seo
-categories: web
-abbrlink: 47402
+categories: 
+  - web
+abbrlink: 6021eb27
 date: 2017-03-20 00:00:00
 ---
 

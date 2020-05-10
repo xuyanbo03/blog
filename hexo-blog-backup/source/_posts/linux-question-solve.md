@@ -2,8 +2,9 @@
 title: 关于Linux问题的解决办法
 tags:
   - Linux
-categories: Linux
-abbrlink: 13368
+categories: 
+  - Linux
+abbrlink: cf0c10bf
 date: 2017-03-05 00:00:00
 ---
 
