@@ -1,16 +1,16 @@
 ---
-title: 使用JavaScript做一个AI五子棋
+title: 使用JavaScript实现AI五子棋
 tags:
   - JavaScript
 categories: 
   - web前端
 abbrlink: d24e8921
+copyright: ture
+author: Awebone
 date: 2017-04-27 00:00:00
 ---
 
-# 使用JavaScript做一个AI五子棋
-
-**实现步骤：**
+# 实现步骤
 
 1. 搭建HTML、CSS、JS框架
 
@@ -21,9 +21,11 @@ date: 2017-04-27 00:00:00
 
 <!-- more -->
 
+<br />
 
 
-## canvas画图
+
+# canvas画图
 
 ```javascript
 <canvas id="chess" width="450px" height="450px"></canvas>
@@ -38,9 +40,11 @@ var chess = document.getElementById('chess');
 var context = chess.getContext('2d');
 ```
 
+<br />
 
 
-## js实现棋盘
+
+# js实现棋盘
 
 ```javascript
 var drawChessBoard = function() {
@@ -55,9 +59,11 @@ var drawChessBoard = function() {
 }
 ```
 
+<br />
 
 
-## js实现棋子
+
+# js实现棋子
 
 ```javascript
 var oneStep = function(i, j, me) {
@@ -81,9 +87,11 @@ var oneStep = function(i, j, me) {
 }
 ```
 
+<br />
 
 
-## 落子
+
+# 落子
 
 ```javascript
 chess.onclick = function(e) {
@@ -118,3 +126,4 @@ for (var i = 0; i < 15; i++) {
 	}
 }
 ```
+

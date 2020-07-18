@@ -11,17 +11,15 @@ abbrlink: dd22b276
 date: 2020-03-26 15:00:00
 ---
 
-# 多种计算引擎实现WordCount
-
-本文使用多种计算引擎实现词频统计。
+> 本文使用多种计算引擎实现词频统计
 
 
 
-## MapReduce实现
+# MapReduce实现
 
 编写MapReduce程序分成三部分：`Mapper`、`Reducer`、`Driver`
 
-<!-- more -->
+
 
 **业务逻辑**
 
@@ -36,6 +34,8 @@ date: 2020-03-26 15:00:00
  * `VALUEIN`：输入的值的类型，在这里指的是一行的内容
  * `KEYOUT`：输出的键的类型，这里指的是单词，允许重复的
  * `VALUEOUT`：输出的值的类型
+
+<!-- more -->
 
 
 
@@ -172,15 +172,17 @@ public class Driver {
 }
 ```
 
+<br />
 
 
-## Scala实现
+
+# Scala实现
 
 定义数据：`array = Array("a b", "c c", "b c")`
 
 
 
-### 第一种方式实现
+## 第一种方式实现
 
 ```scala
 val countWord = array.flatMap(_.split(" "))
@@ -205,7 +207,7 @@ val countWord = array.flatMap(_.split(" "))
 
 
 
-### 其他方式实现
+## 其他方式实现
 
 ```scala
 val countWord1 = array.map(_.split(" "))
@@ -234,11 +236,13 @@ val countWord3 = array.flatMap(_.split(" "))
 	.reverse
 ```
 
+<br />
 
 
-## Spark-shell实现
 
-### 第一种方式实现
+# Spark-Shell实现
+
+## 第一种方式实现
 
 ```scala
 sc.textFile("hdfs://myha/spark/wc/input/words.txt")
@@ -262,7 +266,7 @@ sc.textFile("hdfs://myha/spark/wc/input/words.txt")
 
 
 
-### 其他方式实现
+## 其他方式实现
 
 ```scala
 sc.textFile("hdfs://myha/spark/wc/input/words.txt")

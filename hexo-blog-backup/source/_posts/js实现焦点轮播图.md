@@ -3,14 +3,14 @@ title: 使用JavaScript实现焦点轮播图
 tags:
   - JavaScript
 categories: 
-  - web前端
+  - 前端
 abbrlink: 7a7093e6
+copyright: ture
+author: Awebone
 date: 2017-12-29 00:00:00
 ---
 
-# 使用JavaScript实现焦点轮播图
-
-## 原理
+# 原理
 
 各大网站都使用焦点轮播图来展示自己的图片，如淘宝、京东等。
 
@@ -19,14 +19,18 @@ date: 2017-12-29 00:00:00
 
 <!--more-->
 
+<br />
 
 
-## 使用html和css实现静态页面布局
+
+# 使用html和css实现静态页面布局
 
 1. 父容器要承载图片、圆点下标、左右切换箭头，要让超出部分隐藏`overflow：hidden`、定位为`position：relative`；
 2. 图片的div要添加定位：`position：absolute`让它基于父容器relative，`z-index：1`使图片堆叠在第一层上；
 3. 圆点下标和左右切换箭头设置`z-index：2`，`position：absolute`，让其覆盖在图片上；
 4. 左右切换箭头在初始状态下设置为隐藏`display：none`，鼠标移上图片时使其显示`display：block`，鼠标移到箭头上时改变透明度RGBA，使箭头颜色加深；
+
+
 
 
 **HTML代码**
@@ -144,9 +148,11 @@ body{
 }
 ```
 
+<br />
 
 
-## JS动画实现
+
+# JS动画实现
 
 **箭头切换 -> 无限滚动 -> 按钮切换 -> 延迟切换 -> 自动播放**
 
@@ -201,8 +207,10 @@ body{
      }
      ```
    
-4. **动画函数**
    
+   
+4. **动画函数**
+
    - 图片在一定时间内进行位移，要判断是否达到目标值，没有达到还要继续做位移
    - 声明一个变量用offset总共的偏移量除以次数（位移总时间time除以位移间隔时间inteval),求出每次移动多少`var speed = offset / (time / inteval);`
    - 判断speed小于0并且left值是否大于目标值newLeft或speed大于0并且left值小于目标值，这两种情况让它做位移`speed > 0 && parseInt(list.style.left) < left) || (speed < 0 && parseInt(list.style.left) > left`
@@ -334,9 +342,11 @@ window.onload = function() {
 }
 ```
 
+<br />
 
 
-## 总结
+
+# 总结
 
 焦点轮播图的实现需要耐心分析原理，掌握焦点轮播图所需的技能点，从而通过代码实现。
 

@@ -10,13 +10,11 @@ abbrlink: 62e0a87a
 date: 2020-03-17 15:00:00
 ---
 
-# ElasticSearch安装避坑
-
-本文使用Centos7安装ElasticSearch6.5.2，记录避坑指南。
+> 本文使用Centos7安装ElasticSearch6.5.2，记录避坑指南。
 
 
 
-## 升级内核
+# 升级内核
 
 通过命令查看内核：
 
@@ -24,6 +22,8 @@ date: 2020-03-17 15:00:00
 uname -a
 # 3.10.0-327.el7.x86_64
 ```
+
+
 
 Centos7自带的内核为3.10，但是ElasticSearch6.5.2要求系统内核必须在3.5以上，故升级内核，root用户下执行：
 
@@ -40,6 +40,8 @@ awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
 grub2-set-default 0 
 ```
 
+
+
 安装完毕后重启`reboot`生效
 
 查看内核为5.5.9：`Linux awebone.com 5.5.9-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 19:01:01 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux`
@@ -50,13 +52,13 @@ grub2-set-default 0
 yum update -y nss curl libcurl
 ```
 
-
-
 <!-- more -->
 
+<br />
 
 
-## 关闭防火墙和SELinux
+
+# 关闭防火墙和SELinux
 
 因为在本地虚拟机安装，关闭防火墙和SELinux，方便测试：
 
@@ -74,13 +76,15 @@ setenforce 1
 getenforce
 ```
 
+<br />
 
 
-## 安装JDK1.8和ElasticSearch
+
+# 安装JDK1.8和ElasticSearch
 
 通过官网下载安装包`elasticsearch-6.5.2.tar.gz`和`jdk-8u73-linux-x64.tar.gz`
 
-### 安装JDK
+## 安装JDK
 
 ES要求jdk需要为1.8版本以上，故删除自带的1.7：
 
@@ -116,7 +120,7 @@ export JAVA_HOME JRE_HOME PATH CLASSPATH
 
 
 
-### 安装ElasticSearch
+## 安装ElasticSearch
 
 注意：ES从2.X版本起，就不能再root用户下安装，故在普通用户下安装
 
